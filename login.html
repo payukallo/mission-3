@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Daftar</title>
-    <link rel="stylesheet" href="./styles/daftar.css" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./styles/login.css" />
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
@@ -19,8 +19,8 @@
           />
         </div>
         <div class="title">
-          <h3 class="heading-3">Daftar</h3>
-          <p class="body-medium-regular">Selamat datang!</p>
+          <h3 class="heading-3">Masuk</h3>
+          <p class="body-medium-regular">Selamat datang kembali</p>
         </div>
         <div class="userName body-large-medium">
           <label for="userName">Username</label>
@@ -31,18 +31,9 @@
             placeholder="Masukkan username"
           />
         </div>
-        <div class="password body-large-medium">
-          <label for="password">Kata Sandi</label>
-          <input
-            class="body-medium-regular"
-            id="password"
-            type="password"
-            placeholder="Masukkan kata sandi"
-          />
-        </div>
         <div class="password-container">
           <div class="password body-large-medium">
-            <label for="password">Konfirmasi Kata Sandi</label>
+            <label for="password">Kata Sandi</label>
             <input
               class="body-medium-regular"
               id="password"
@@ -50,15 +41,16 @@
               placeholder="Masukkan kata sandi"
             />
           </div>
-          <div class="body-medium-regular">
+          <div class="newAccount body-medium-regular">
             <span
-              >Sudah punya akun?
-              <a class="body-medium-medium" href="daftar.html">Masuk</a></span
+              >Belum punya akun?
+              <a class="body-medium-medium" href="daftar.html">Daftar</a></span
             >
+            <a href="">Lupa kata sandi?</a>
           </div>
         </div>
-        <div class="login body-medium-semiBold">
-          <button class="body-medium-semiBold" id="regis" >Daftar</button>
+        <div class="login">
+          <button class="body-medium-semiBold" id="log">Masuk</button>
           <span class="body-small-medium">Atau</span>
 
           <button class="google-login body-medium-semiBold">
@@ -66,7 +58,7 @@
               src="./assets/images/google_logo_icon_169090.png"
               width="18px"
             />
-            Daftar dengan Goggle
+            Masuk dengan Goggle
           </button>
         </div>
       </div>
