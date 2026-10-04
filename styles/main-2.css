@@ -314,6 +314,20 @@
 }
 
 @media (max-width: 580px), (max-height: 900px) {
+ .body-large-medium, 
+ .body-small-medium {
+  font-size: 10px;
+ }
+
+ .heading-1{
+  font-size: 24px;
+ }
+
  
+
+ .body-large-medium,
+ .body-large-regular {
+  font-size: 12px;
+ }
 
 }

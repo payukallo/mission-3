@@ -6,7 +6,7 @@ body {
   box-sizing: border-box;
 }
 
-main {
+body {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -95,7 +95,19 @@ a {
   color: var(--text-light-primary);
 }
 
-@media (max-width: 360px), (max-height: 709px) {
+@media (max-width: 580px), (max-height: 900px) {
+  body .heading-3 {
+    font-size: 18px;
+  }
+
+  body .body-medium-regular,
+  body .body-large-medium,
+  body .body-medium-medium,
+  body .body-medium-semiBold,
+  body .body-small-medium {
+    font-size: 10px;
+  }
+
   .container {
     width: 306px;
     height: 384px;
@@ -134,8 +146,8 @@ a {
   .google-login {
     gap: 11.55px;
   }
-  
-   .google-login img {
+
+  .google-login img {
     width: 10px;
   }
 }
