@@ -292,6 +292,10 @@ footer {
     font-size: 12px;
   }
 
+   body .body-large-regular {
+    font-size: 12px;
+  }
+
   body .body-medium-bold {
     font-weight: 500;
   }
